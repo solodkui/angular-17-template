@@ -1,0 +1,14 @@
+header {
+  background-color: var(--c-black);
+  justify-content: space-between;
+  color: var(--c-white);
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  display: flex;
+}
+
+.test {
+  position: absolute;
+  left: 300px;
+}

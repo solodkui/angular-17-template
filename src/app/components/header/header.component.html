@@ -1,0 +1,18 @@
+<header>
+  <!-- Logo -->
+  <div class="logo">LOGO</div>
+  <!-- Show -->
+  @if (show()) {
+  <span class="test">Some text =)</span>
+  }
+  <!-- Button toggle show -->
+  <button type="button" (click)="toggleShow()">
+    <span>TOGGLE TEXT</span>
+  </button>
+  <!-- Navigation -->
+  @defer (on viewport) {
+  <app-navigation />
+  } @placeholder {
+  <span>...</span>
+  }
+</header>
